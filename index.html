@@ -70,7 +70,8 @@
                         $("#gifs-appear-here").prepend(carDiv);
                     }
                 });
-
+            //loading in the still state doesnt work. if i begin with a document.ready function, 
+            //it doesnt show the gifs at all. placing this first in the js doesnt work either.
             var state = $(this).attr("data-state");
 
             if (state === "still") {
@@ -82,7 +83,8 @@
                 $(this).attr("src", stillVal);
                 $(this).attr("data-state", "still");
             }
-
+            //the user adding a button will be am imput field on screen 
+            //that appends the user input to the list of buttons.
         });
     </script>
 </body>
