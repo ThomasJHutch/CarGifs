@@ -7,6 +7,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Car Gifs</title>
 </head>
+<style>
+    body {
+        background-color: rgb(18, 17, 17);
+    }
+
+    button {
+        margin: auto;
+    }
+
+    #gifs-appear-here {
+        margin: auto;
+        padding: 15px;
+        color: white;
+    }
+</style>
 
 <body>
 
